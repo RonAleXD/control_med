@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ronal\\Desktop\\Projetos\\TC\\control_med\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\Bibliotecas\\Desktop\\Projetos\\TC\\control_med\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ronal\\.gradle\\caches\\transforms-2\\files-2.1\\03c633e46d75bfb21f082f0417f55161\\jetified-window-1.0.0-beta04\\res\\values\\values.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ronal\\Desktop\\Projetos\\TC\\control_med\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\Bibliotecas\\Desktop\\Projetos\\TC\\control_med\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
