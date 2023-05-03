@@ -45,6 +45,7 @@ class MedNew extends StatelessWidget {
                     final double? qtdRestante =
                         double.tryParse(_controladorQtd.text);
                     final Medicamentos medicamentoNovo = Medicamentos(
+                        //id: ,
                         nome: nome,
                         dosagem: dosagem,
                         qtdRestante: qtdRestante!);
