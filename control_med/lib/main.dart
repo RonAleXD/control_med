@@ -1,4 +1,4 @@
-//mport 'package:control_med/screens/med_new_screen.dart';
+import 'package:control_med/screens/med_new_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home:  
-       //MedNew() //<-
+       MedNew() //<-
     );
   }
 }
