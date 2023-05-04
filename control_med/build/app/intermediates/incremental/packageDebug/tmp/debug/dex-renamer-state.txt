@@ -1,4 +1,4 @@
-#Wed Mar 29 13:56:43 BRT 2023
+#Thu May 04 12:53:57 BRT 2023
 base.0=D\:\\Bibliotecas\\Desktop\\Projetos\\TC\\control_med\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -13,22 +13,28 @@ class MedNew extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Cadastro de medicação'),
+
       ),
       body: Padding(
+        
         padding: const EdgeInsets.all(16.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             TextField(
-              decoration: const InputDecoration(labelText:'Nome do medicamento'),
+              decoration:
+                  const InputDecoration(labelText: 'Nome do medicamento'),
               controller: _controladorNome,
             ),
             TextField(
-              decoration: const InputDecoration(labelText:'Dosagem do medicamento' ),
+              decoration:
+                  const InputDecoration(labelText: 'Dosagem do medicamento'),
               controller: _controladorDosagem,
             ),
             TextField(
-              decoration: const InputDecoration(labelText:'Quantidade restante em estoque' ),
+              decoration: const InputDecoration(
+                  labelText: 'Quantidade restante em estoque'),
               keyboardType: TextInputType.number,
               controller: _controladorQtd,
             ),
@@ -39,6 +45,7 @@ class MedNew extends StatelessWidget {
               children: [
                 ElevatedButton(
                   child: const Text('Salvar'),
+                  
                   onPressed: () {
                     final String nome = _controladorNome.text;
                     final String dosagem = _controladorDosagem.text;
