@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../utils/app_routes.dart';
 
 class MedListScreen extends StatelessWidget {
   const MedListScreen({Key? key}) : super(key: key);
@@ -9,12 +8,6 @@ class MedListScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text('Horários'),
-          leading: IconButton(
-            onPressed: () {
-              Navigator.of(context).pushNamed(AppRoutes.medNew);
-            },
-            icon: const Icon(Icons.add),
-          ),
         ),
         body: ListView.builder(
           itemCount: 1,

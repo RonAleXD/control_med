@@ -1,4 +1,9 @@
+import 'package:control_med/screens/homePage.dart';
+import 'package:control_med/screens/med_detail_screen.dart';
+import 'package:control_med/screens/med_list_screen.dart';
 import 'package:control_med/screens/med_new_screen.dart';
+import 'package:control_med/screens/settings_screen.dart';
+import 'package:control_med/screens/user_new_screen.dart';
 import 'package:control_med/themes/themes.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +22,14 @@ class MyApp extends StatelessWidget {
       title: 'Controle de Medicamentos',
       theme: lightTheme,
       darkTheme: darkTheme,
-      home: MedNew(), //<-
+      routes: {
+        '/':(_) => const HomePage(), // trocar por login
+        '/newMed':(_) => MedNew(),
+        '/newUser':(_) => UserNewScreen(),
+        '/settings':(_) => const SettingsScreen(),
+        '/medDetail':(_) => const MedDetailsScreen(),
+        '/medList':(_) => const MedListScreen(),
+      }, //<-
     );
   }
 }
