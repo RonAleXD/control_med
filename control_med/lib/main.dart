@@ -1,4 +1,4 @@
-import 'package:control_med/screens/homePage.dart';
+import 'package:control_med/screens/home_page.dart';
 import 'package:control_med/screens/med_detail_screen.dart';
 import 'package:control_med/screens/med_list_screen.dart';
 import 'package:control_med/screens/med_new_screen.dart';

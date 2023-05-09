@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "771661705131",
+    "project_id": "controlmed-88626",
+    "storage_bucket": "controlmed-88626.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771661705131:android:e77e82d694691bb979ecee",
+        "android_client_info": {
+          "package_name": "com.example.control_med"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771661705131-0nui3ae9rm0k9qfp6l07ue2ohbrn5nkg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDFtnP8KXGiTcu0VUclPc9LaaNnK4l-x4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771661705131-0nui3ae9rm0k9qfp6l07ue2ohbrn5nkg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
