@@ -23,12 +23,12 @@ class MyApp extends StatelessWidget {
       theme: lightTheme,
       darkTheme: darkTheme,
       routes: {
-        '/':(_) => const HomePage(), // trocar por login
-        '/newMed':(_) => MedNew(),
-        '/newUser':(_) => UserNewScreen(),
-        '/settings':(_) => const SettingsScreen(),
-        '/medDetail':(_) => const MedDetailsScreen(),
-        '/medList':(_) => const MedListScreen(),
+        '/': (_) => const HomePage(), // trocar por login
+        '/newMed': (_) => MedNew(),
+        '/newUser': (_) => UserNewScreen(),
+        '/settings': (_) => const SettingsScreen(),
+        '/medDetail': (_) => const MedDetailsScreen(),
+        '/medList': (_) => const MedListScreen(),
       }, //<-
     );
   }
