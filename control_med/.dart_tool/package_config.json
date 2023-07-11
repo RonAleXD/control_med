@@ -122,6 +122,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "get",
+      "rootUri": "file:///C:/Users/ronal/AppData/Local/Pub/Cache/hosted/pub.dev/get-4.6.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
       "name": "html",
       "rootUri": "file:///C:/Users/ronal/AppData/Local/Pub/Cache/hosted/pub.dev/html-0.15.3",
       "packageUri": "lib/",
@@ -266,7 +272,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2023-05-15T16:36:06.624827Z",
+  "generated": "2023-07-11T19:13:33.794354Z",
   "generator": "pub",
   "generatorVersion": "3.0.0-313.0.dev"
 }
