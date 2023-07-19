@@ -1,10 +1,9 @@
-import 'package:control_med/screens/bem_vindo_screen.dart';
-import 'package:control_med/screens/login_screen.dart';
-import 'package:control_med/screens/med_detail_screen.dart';
-import 'package:control_med/screens/med_list_screen.dart';
-import 'package:control_med/screens/med_new_screen.dart';
+import 'package:control_med/screens/login/bem_vindo_screen.dart';
+import 'package:control_med/screens/med/med_detail_screen.dart';
+import 'package:control_med/screens/med/med_list_screen.dart';
+import 'package:control_med/screens/med/med_new_screen.dart';
 import 'package:control_med/screens/settings_screen.dart';
-import 'package:control_med/screens/user_new_screen.dart';
+import 'package:control_med/screens/user/user_new_screen.dart';
 import 'package:control_med/themes/themes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/get_navigation.dart';
