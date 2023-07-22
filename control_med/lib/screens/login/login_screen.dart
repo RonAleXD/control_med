@@ -1,5 +1,6 @@
 // ignore_for_file: avoid_unnecessary_containers
 
+import 'package:control_med/consts/images_strings.dart';
 import 'package:flutter/material.dart';
 
 import 'login_form.dart';
@@ -18,7 +19,7 @@ class LoginScreenDart extends StatelessWidget {
           child: Column(
             children: [
               Image.asset(
-                'assets/images/login.png',
+                dLogin,
                 height: altura * 0.2,
               ),
               const LoginForm()

@@ -1,4 +1,6 @@
+import 'package:control_med/screens/login/cadastro/forget_password_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:get/route_manager.dart';
 
 class LoginForm extends StatelessWidget {
   const LoginForm({
@@ -38,11 +40,68 @@ class LoginForm extends StatelessWidget {
             const SizedBox(
               height: 20,
             ),
-            const Align(
+            Align(
               alignment: Alignment.bottomCenter,
               child: TextButton(
-                onPressed: null,
-                child: Text("Esqueceu a senha?"),
+                onPressed: () {
+                  showModalBottomSheet(
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                    context: context,
+                    builder: (context) => Container(
+                      padding: const EdgeInsets.all(20),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Enviar confirmação',
+                            style: Theme.of(context).textTheme.titleLarge,
+                          ),
+                          const SizedBox(
+                            height: 30,
+                          ),
+                          GestureDetector(
+                            onTap: () {
+                              Navigator.pop(context);
+                              Get.to(()=>const ForgetPasswordScreen());
+                              
+                            },
+                            child: Container(
+                              padding: const EdgeInsets.all(10),
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(10),
+                                  color: Colors.grey.shade200),
+                              child: Row(
+                                children: [
+                                  const Icon(Icons.mail_outline_rounded, size: 60,),
+                                  const SizedBox(width: 10.0,),
+                                  Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        'Email',
+                                        style: Theme.of(context)
+                                            .textTheme
+                                            .titleMedium,
+                                      ),
+                                      Text(
+                                        'Enviar confirmação',
+                                        style: Theme.of(context)
+                                            .textTheme
+                                            .bodyMedium,
+                                      )
+                          
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  );
+                },
+                child: const Text("Esqueceu a senha?"),
               ),
             ),
             SizedBox(

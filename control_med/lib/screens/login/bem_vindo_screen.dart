@@ -1,8 +1,9 @@
-import 'package:control_med/screens/login/cadastro_screen.dart.dart';
 import 'package:control_med/screens/login/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 import 'package:get/get.dart';
+
+import 'cadastro/cadastro_screen.dart.dart';
 
 class BemVindoScreen extends StatelessWidget {
   const BemVindoScreen({Key? key}) : super(key: key);
