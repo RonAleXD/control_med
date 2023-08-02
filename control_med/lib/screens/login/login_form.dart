@@ -1,6 +1,7 @@
-import 'package:control_med/screens/login/cadastro/forget_password_screen.dart';
+import 'package:control_med/screens/user/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
+import '../forgotPassword/forget_password_screen.dart';
 
 class LoginForm extends StatelessWidget {
   const LoginForm({
@@ -107,7 +108,7 @@ class LoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: ()=> Get.to(()=> const HomPage()) ,
                 child: const Text("Login"),
               ),
             )
