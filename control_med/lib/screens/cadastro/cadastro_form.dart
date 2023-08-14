@@ -1,7 +1,6 @@
 import 'package:control_med/controllers/signup_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/route_manager.dart';
 
 class CadastroForm extends StatelessWidget {
   const CadastroForm({
@@ -67,7 +66,12 @@ class CadastroForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  if (_formKey.currentState!.validate()) {
+                    SignupController.instance.registrarUser(
+                        controller.email.text.trim(), controller.senha.text);
+                  }
+                },
                 child: const Text("Cadastrar"),
               ),
             ),

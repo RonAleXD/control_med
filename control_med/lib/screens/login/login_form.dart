@@ -1,7 +1,7 @@
-import 'package:control_med/screens/user/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 import '../forgotPassword/forget_password_screen.dart';
+import '../user/home_page.dart';
 
 class LoginForm extends StatelessWidget {
   const LoginForm({
@@ -108,7 +108,7 @@ class LoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: ()=> Get.to(()=> const HomPage()) ,
+                onPressed: ()=> Get.to(()=> const HomePage()) ,
                 child: const Text("Login"),
               ),
             )

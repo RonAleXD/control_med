@@ -1,6 +1,7 @@
 // ignore_for_file: unused_import
 
 import 'package:control_med/firebase_options.dart';
+import 'package:control_med/repositorio/auth/authentication_repository.dart';
 import 'package:control_med/screens/login/bem_vindo_screen.dart';
 import 'package:control_med/screens/med/med_detail_screen.dart';
 import 'package:control_med/screens/med/med_list_screen.dart';
@@ -12,11 +13,12 @@ import 'package:control_med/screens/user/user_new_screen.dart';
 import 'package:control_med/themes/themes.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get_navigation/get_navigation.dart';
+import 'package:get/get.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform)
+      .then((value) => Get.put(AuthenticationRepository()));
   runApp(const MyApp());
 }
 

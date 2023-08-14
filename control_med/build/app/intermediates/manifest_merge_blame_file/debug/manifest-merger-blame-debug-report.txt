@@ -15,13 +15,13 @@
 14-->D:\Bibliotecas\Desktop\Projetos\TC\control_med\android\app\src\debug\AndroidManifest.xml:6:5-66
 14-->D:\Bibliotecas\Desktop\Projetos\TC\control_med\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:26:5-79
-15-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:26:22-76
+15-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:26:5-79
+15-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:26:22-76
 16
 17    <application
 18        android:name="android.app.Application"
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.6.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
+19-->[androidx.core:core:1.6.0] C:\Users\ronal\.gradle\caches\transforms-3\941ea981a7ab334fbfc9e648f12266a4\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_launcher"
 22        android:label="control_med" >
@@ -63,9 +63,9 @@
 57            android:name="com.google.firebase.components.ComponentDiscoveryService"
 57-->[:firebase_auth] D:\Bibliotecas\Desktop\Projetos\TC\control_med\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
 58            android:directBootAware="true"
-58-->[com.google.firebase:firebase-common:20.3.3] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\92528867502f621bee047800fbf16730\jetified-firebase-common-20.3.3\AndroidManifest.xml:34:13-43
+58-->[com.google.firebase:firebase-common:20.3.3] C:\Users\ronal\.gradle\caches\transforms-3\ffdea0755022da1e018f0a7989e46e80\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:34:13-43
 59            android:exported="false" >
-59-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:68:13-37
+59-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:68:13-37
 60            <meta-data
 60-->[:firebase_auth] D:\Bibliotecas\Desktop\Projetos\TC\control_med\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 61                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
@@ -79,125 +79,125 @@
 65                android:value="com.google.firebase.components.ComponentRegistrar" />
 65-->[:firebase_core] D:\Bibliotecas\Desktop\Projetos\TC\control_med\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 66            <meta-data
-66-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:69:13-71:85
+66-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:69:13-71:85
 67                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-67-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:70:17-109
+67-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:70:17-109
 68                android:value="com.google.firebase.components.ComponentRegistrar" />
-68-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:71:17-82
+68-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:71:17-82
 69        </service>
 70
 71        <activity
-71-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:29:9-46:20
+71-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:29:9-46:20
 72            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-72-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:30:13-80
+72-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:30:13-80
 73            android:excludeFromRecents="true"
-73-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:31:13-46
+73-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:31:13-46
 74            android:exported="true"
-74-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:32:13-36
+74-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:32:13-36
 75            android:launchMode="singleTask"
-75-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:33:13-44
+75-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:33:13-44
 76            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-76-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:34:13-72
+76-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:34:13-72
 77            <intent-filter>
-77-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:35:13-45:29
+77-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:35:13-45:29
 78                <action android:name="android.intent.action.VIEW" />
-78-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:36:17-69
-78-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:36:25-66
+78-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:36:17-69
+78-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:36:25-66
 79
 80                <category android:name="android.intent.category.DEFAULT" />
-80-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:38:17-76
-80-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:38:27-73
+80-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:38:17-76
+80-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:38:27-73
 81                <category android:name="android.intent.category.BROWSABLE" />
-81-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:39:17-78
-81-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:39:27-75
+81-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:39:17-78
+81-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:39:27-75
 82
 83                <data
-83-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:41:17-44:51
+83-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:41:17-44:51
 84                    android:host="firebase.auth"
-84-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:42:21-49
+84-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:42:21-49
 85                    android:path="/"
-85-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:43:21-37
+85-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:43:21-37
 86                    android:scheme="genericidp" />
-86-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:44:21-48
+86-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:44:21-48
 87            </intent-filter>
 88        </activity>
 89        <activity
-89-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:47:9-64:20
+89-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:47:9-64:20
 90            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-90-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:48:13-79
+90-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:48:13-79
 91            android:excludeFromRecents="true"
-91-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:49:13-46
+91-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:49:13-46
 92            android:exported="true"
-92-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:50:13-36
+92-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:50:13-36
 93            android:launchMode="singleTask"
-93-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:51:13-44
+93-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:51:13-44
 94            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-94-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:52:13-72
+94-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:52:13-72
 95            <intent-filter>
-95-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:53:13-63:29
+95-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:53:13-63:29
 96                <action android:name="android.intent.action.VIEW" />
-96-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:36:17-69
-96-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:36:25-66
+96-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:36:17-69
+96-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:36:25-66
 97
 98                <category android:name="android.intent.category.DEFAULT" />
-98-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:38:17-76
-98-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:38:27-73
+98-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:38:17-76
+98-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:38:27-73
 99                <category android:name="android.intent.category.BROWSABLE" />
-99-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:39:17-78
-99-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:39:27-75
+99-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:39:17-78
+99-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:39:27-75
 100
 101                <data
-101-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:41:17-44:51
+101-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:41:17-44:51
 102                    android:host="firebase.auth"
-102-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:42:21-49
+102-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:42:21-49
 103                    android:path="/"
-103-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:43:21-37
+103-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:43:21-37
 104                    android:scheme="recaptcha" />
-104-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\feac4655fbcfaae5340d79e8f55bee79\jetified-firebase-auth-22.1.0\AndroidManifest.xml:44:21-48
+104-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\ronal\.gradle\caches\transforms-3\4c60071c34950947452ff37749e6d555\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:44:21-48
 105            </intent-filter>
 106        </activity>
 107
 108        <uses-library
-108-->[androidx.window:window:1.0.0-beta04] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+108-->[androidx.window:window:1.0.0-beta04] C:\Users\ronal\.gradle\caches\transforms-3\2d23328e5fbd1e69f10064dad0947605\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 109            android:name="androidx.window.extensions"
-109-->[androidx.window:window:1.0.0-beta04] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+109-->[androidx.window:window:1.0.0-beta04] C:\Users\ronal\.gradle\caches\transforms-3\2d23328e5fbd1e69f10064dad0947605\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
 110            android:required="false" />
-110-->[androidx.window:window:1.0.0-beta04] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+110-->[androidx.window:window:1.0.0-beta04] C:\Users\ronal\.gradle\caches\transforms-3\2d23328e5fbd1e69f10064dad0947605\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
 111        <uses-library
-111-->[androidx.window:window:1.0.0-beta04] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+111-->[androidx.window:window:1.0.0-beta04] C:\Users\ronal\.gradle\caches\transforms-3\2d23328e5fbd1e69f10064dad0947605\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
 112            android:name="androidx.window.sidecar"
-112-->[androidx.window:window:1.0.0-beta04] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+112-->[androidx.window:window:1.0.0-beta04] C:\Users\ronal\.gradle\caches\transforms-3\2d23328e5fbd1e69f10064dad0947605\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
 113            android:required="false" />
-113-->[androidx.window:window:1.0.0-beta04] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+113-->[androidx.window:window:1.0.0-beta04] C:\Users\ronal\.gradle\caches\transforms-3\2d23328e5fbd1e69f10064dad0947605\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
 114
 115        <provider
-115-->[com.google.firebase:firebase-common:20.3.3] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\92528867502f621bee047800fbf16730\jetified-firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
+115-->[com.google.firebase:firebase-common:20.3.3] C:\Users\ronal\.gradle\caches\transforms-3\ffdea0755022da1e018f0a7989e46e80\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
 116            android:name="com.google.firebase.provider.FirebaseInitProvider"
-116-->[com.google.firebase:firebase-common:20.3.3] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\92528867502f621bee047800fbf16730\jetified-firebase-common-20.3.3\AndroidManifest.xml:26:13-77
+116-->[com.google.firebase:firebase-common:20.3.3] C:\Users\ronal\.gradle\caches\transforms-3\ffdea0755022da1e018f0a7989e46e80\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:26:13-77
 117            android:authorities="com.example.control_med.firebaseinitprovider"
-117-->[com.google.firebase:firebase-common:20.3.3] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\92528867502f621bee047800fbf16730\jetified-firebase-common-20.3.3\AndroidManifest.xml:27:13-72
+117-->[com.google.firebase:firebase-common:20.3.3] C:\Users\ronal\.gradle\caches\transforms-3\ffdea0755022da1e018f0a7989e46e80\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:27:13-72
 118            android:directBootAware="true"
-118-->[com.google.firebase:firebase-common:20.3.3] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\92528867502f621bee047800fbf16730\jetified-firebase-common-20.3.3\AndroidManifest.xml:28:13-43
+118-->[com.google.firebase:firebase-common:20.3.3] C:\Users\ronal\.gradle\caches\transforms-3\ffdea0755022da1e018f0a7989e46e80\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:28:13-43
 119            android:exported="false"
-119-->[com.google.firebase:firebase-common:20.3.3] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\92528867502f621bee047800fbf16730\jetified-firebase-common-20.3.3\AndroidManifest.xml:29:13-37
+119-->[com.google.firebase:firebase-common:20.3.3] C:\Users\ronal\.gradle\caches\transforms-3\ffdea0755022da1e018f0a7989e46e80\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:29:13-37
 120            android:initOrder="100" />
-120-->[com.google.firebase:firebase-common:20.3.3] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\92528867502f621bee047800fbf16730\jetified-firebase-common-20.3.3\AndroidManifest.xml:30:13-36
+120-->[com.google.firebase:firebase-common:20.3.3] C:\Users\ronal\.gradle\caches\transforms-3\ffdea0755022da1e018f0a7989e46e80\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:30:13-36
 121
 122        <activity
-122-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+122-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ronal\.gradle\caches\transforms-3\89f0794b12bceffe8d62b6184536d684\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
 123            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-123-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+123-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ronal\.gradle\caches\transforms-3\89f0794b12bceffe8d62b6184536d684\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
 124            android:exported="false"
-124-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+124-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ronal\.gradle\caches\transforms-3\89f0794b12bceffe8d62b6184536d684\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
 125            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-125-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+125-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ronal\.gradle\caches\transforms-3\89f0794b12bceffe8d62b6184536d684\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
 126
 127        <meta-data
-127-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+127-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ronal\.gradle\caches\transforms-3\79dff45b8418d3a4ee33a64a4308f6e2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
 128            android:name="com.google.android.gms.version"
-128-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+128-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ronal\.gradle\caches\transforms-3\79dff45b8418d3a4ee33a64a4308f6e2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
 129            android:value="@integer/google_play_services_version" />
-129-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ronal\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+129-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ronal\.gradle\caches\transforms-3\79dff45b8418d3a4ee33a64a4308f6e2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
 130    </application>
 131
 132</manifest>
