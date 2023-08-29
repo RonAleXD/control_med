@@ -2,7 +2,7 @@
 
 import 'package:control_med/firebase_options.dart';
 import 'package:control_med/repositorio/auth/authentication_repository.dart';
-import 'package:control_med/screens/login/bem_vindo_screen.dart';
+import 'package:control_med/screens/login/welcome_screen.dart';
 import 'package:control_med/screens/med/med_detail_screen.dart';
 import 'package:control_med/screens/med/med_list_screen.dart';
 import 'package:control_med/screens/med/med_new_screen.dart';

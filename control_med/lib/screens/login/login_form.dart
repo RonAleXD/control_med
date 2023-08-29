@@ -1,7 +1,11 @@
+// ignore_for_file: unused_local_variable
+
 import 'package:flutter/material.dart';
-import 'package:get/route_manager.dart';
-import '../forgotPassword/forget_password_screen.dart';
+//import 'package:get/route_manager.dart';
+import '../../controllers/signup_controller.dart';
+import '../forgotPassword/forgot_password_screen.dart';
 import '../user/home_page.dart';
+import 'package:get/get.dart';
 
 class LoginForm extends StatelessWidget {
   const LoginForm({
@@ -10,6 +14,8 @@ class LoginForm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final controller = Get.put(SignupController());
+    final _formKey = GlobalKey<FormState>();
     return Form(
       child: Container(
         padding: const EdgeInsets.symmetric(vertical: 20),
@@ -17,6 +23,7 @@ class LoginForm extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             TextFormField(
+              controller: controller.email,
               decoration: const InputDecoration(
                 prefix: Icon(Icons.person_outlined),
                 labelText: "Email",
@@ -28,6 +35,7 @@ class LoginForm extends StatelessWidget {
               height: 20,
             ),
             TextFormField(
+              controller: controller.senha,
               decoration: const InputDecoration(
                   prefix: Icon(Icons.fingerprint),
                   labelText: "Senha",
@@ -41,6 +49,7 @@ class LoginForm extends StatelessWidget {
             const SizedBox(
               height: 20,
             ),
+           ///esqueceu a senha
             Align(
               alignment: Alignment.bottomCenter,
               child: TextButton(
@@ -105,10 +114,16 @@ class LoginForm extends StatelessWidget {
                 child: const Text("Esqueceu a senha?"),
               ),
             ),
+            ////
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: ()=> Get.to(()=> const HomePage()) ,
+                onPressed: (){
+                  if (_formKey.currentState!.validate()) {
+                    SignupController.instance.login(
+                        controller.email.text.trim(), controller.senha.text);
+                  }
+                } ,
                 child: const Text("Login"),
               ),
             )
