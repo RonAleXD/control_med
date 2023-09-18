@@ -11,7 +11,7 @@ class SignupController extends GetxController{
   final confirmsenha = TextEditingController() ;
 
   void login(String email, String password){
-    AuthenticationRepository.instance.loginUserWithEmailAndPassword(email, password);
+    AuthenticationRepository.instance.signInWithEmailAndPassword(email, password);
 
   }
   void cadastrarUsuario(String email, String password){

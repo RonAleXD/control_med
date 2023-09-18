@@ -146,10 +146,8 @@ class _LoginFormState extends State<LoginForm> {
               width: double.infinity,
               child: ElevatedButton(
                 onPressed: () {
-                  if (_formKey.currentState!.validate()) {
-                    SignupController.instance.login(
-                        controller.email.text.trim(), controller.senha.text);
-                  }
+                  SignupController.instance.login(
+                      controller.email.text.trim(), controller.senha.text);
                 },
                 child: const Text("Login"),
               ),

@@ -1,5 +1,3 @@
-// ignore_for_file: unused_import
-
 import 'package:control_med/firebase_options.dart';
 import 'package:control_med/repositorio/auth/authentication_repository.dart';
 import 'package:control_med/screens/login/welcome_screen.dart';
@@ -7,8 +5,6 @@ import 'package:control_med/screens/med/med_detail_screen.dart';
 import 'package:control_med/screens/med/med_list_screen.dart';
 import 'package:control_med/screens/med/med_new_screen.dart';
 import 'package:control_med/screens/settings_screen.dart';
-import 'package:control_med/screens/user/homepage.dart';
-import 'package:control_med/screens/user/home_page.dart';
 import 'package:control_med/screens/user/user_new_screen.dart';
 import 'package:control_med/themes/themes.dart';
 import 'package:firebase_core/firebase_core.dart';
