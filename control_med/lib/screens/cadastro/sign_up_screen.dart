@@ -1,5 +1,5 @@
 import 'package:control_med/consts/images_strings.dart';
-import 'package:control_med/screens/cadastro/signIn_form.dart';
+import 'package:control_med/screens/cadastro/sign_up_form.dart';
 import 'package:flutter/material.dart';
     
 class CadastroScreenDart extends StatelessWidget {

@@ -1,11 +1,19 @@
-import 'package:control_med/controllers/signup_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class CadastroForm extends StatelessWidget {
+import 'package:control_med/controllers/signup_controller.dart';
+
+class CadastroForm extends StatefulWidget {
   const CadastroForm({
     Key? key,
   }) : super(key: key);
+
+  @override
+  State<CadastroForm> createState() => _CadastroFormState();
+}
+
+class _CadastroFormState extends State<CadastroForm> {
+  bool _showPassword = false;
 
   @override
   Widget build(BuildContext context) {
@@ -27,12 +35,9 @@ class CadastroForm extends StatelessWidget {
                 border: OutlineInputBorder(),
               ),
             ),
-            /////
             const SizedBox(
               height: 20,
             ),
-            ////
-            ///
             TextFormField(
               controller: controller.email,
               decoration: const InputDecoration(
@@ -42,27 +47,48 @@ class CadastroForm extends StatelessWidget {
                 border: OutlineInputBorder(),
               ),
             ),
-            /////
             const SizedBox(
               height: 20,
             ),
-            ////
             TextFormField(
+              obscureText: (_showPassword == true) ? false : true,
               controller: controller.senha,
               decoration: const InputDecoration(
-                  prefix: Icon(Icons.fingerprint),
-                  labelText: "Senha",
-                  hintText: "Senha",
-                  border: OutlineInputBorder(),
-                  suffixIcon: IconButton(
-                    onPressed: null,
-                    icon: Icon(Icons.remove_red_eye_sharp),
-                  )),
+                prefix: Icon(Icons.fingerprint),
+                labelText: "Senha",
+                hintText: "Senha",
+                border: OutlineInputBorder(),
+              ),
             ),
             const SizedBox(
               height: 20,
             ),
-
+            TextFormField(
+              obscureText: (_showPassword == true) ? false : true,
+              controller: controller.confirmsenha,
+              decoration: const InputDecoration(
+                prefix: Icon(Icons.fingerprint),
+                labelText: "Confirme sua Senha",
+                hintText: "Confirme sua Senha",
+                border: OutlineInputBorder(),
+              ),
+            ),
+            Row(
+              children: [
+                Checkbox(
+                  value: _showPassword,
+                  onChanged: (newValue) {
+                    setState(() {
+                      _showPassword = newValue!;
+                    });
+                  },
+                ),
+                const Text("Mostrar senha")
+              ],
+            ),
+            const SizedBox(
+              height: 20,
+            ),
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(

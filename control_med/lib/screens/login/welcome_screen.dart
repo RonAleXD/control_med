@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 import 'package:get/get.dart';
 
-import '../cadastro/signIn_screen.dart';
+import '../cadastro/sign_up_screen.dart';
 
 class BemVindoScreen extends StatelessWidget {
   const BemVindoScreen({Key? key}) : super(key: key);

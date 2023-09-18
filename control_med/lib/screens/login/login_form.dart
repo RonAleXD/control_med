@@ -1,16 +1,21 @@
 // ignore_for_file: unused_local_variable
 
 import 'package:flutter/material.dart';
-//import 'package:get/route_manager.dart';
 import '../../controllers/signup_controller.dart';
 import '../forgotPassword/forgot_password_screen.dart';
-import '../user/home_page.dart';
 import 'package:get/get.dart';
 
-class LoginForm extends StatelessWidget {
+class LoginForm extends StatefulWidget {
   const LoginForm({
     Key? key,
   }) : super(key: key);
+
+  @override
+  State<LoginForm> createState() => _LoginFormState();
+}
+
+class _LoginFormState extends State<LoginForm> {
+  bool _continueConnected = false;
 
   @override
   Widget build(BuildContext context) {
@@ -49,13 +54,31 @@ class LoginForm extends StatelessWidget {
             const SizedBox(
               height: 20,
             ),
-           ///esqueceu a senha
+            Row(
+              children: [
+                Checkbox(
+                  value: _continueConnected,
+                  onChanged: (newValue) {
+                    setState(() {
+                      _continueConnected = newValue!;
+                    });
+                  },
+                ),
+                const Text("Continuar conectado?")
+              ],
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+
+            ///esqueceu a senha
             Align(
               alignment: Alignment.bottomCenter,
               child: TextButton(
                 onPressed: () {
                   showModalBottomSheet(
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20)),
                     context: context,
                     builder: (context) => Container(
                       padding: const EdgeInsets.all(20),
@@ -72,8 +95,7 @@ class LoginForm extends StatelessWidget {
                           GestureDetector(
                             onTap: () {
                               Navigator.pop(context);
-                              Get.to(()=>const ForgetPasswordScreen());
-                              
+                              Get.to(() => const ForgetPasswordScreen());
                             },
                             child: Container(
                               padding: const EdgeInsets.all(10),
@@ -82,10 +104,16 @@ class LoginForm extends StatelessWidget {
                                   color: Colors.grey.shade200),
                               child: Row(
                                 children: [
-                                  const Icon(Icons.mail_outline_rounded, size: 60,),
-                                  const SizedBox(width: 10.0,),
+                                  const Icon(
+                                    Icons.mail_outline_rounded,
+                                    size: 60,
+                                  ),
+                                  const SizedBox(
+                                    width: 10.0,
+                                  ),
                                   Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
                                     children: [
                                       Text(
                                         'Email',
@@ -99,7 +127,6 @@ class LoginForm extends StatelessWidget {
                                             .textTheme
                                             .bodyMedium,
                                       )
-                          
                                     ],
                                   )
                                 ],
@@ -118,12 +145,12 @@ class LoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: (){
+                onPressed: () {
                   if (_formKey.currentState!.validate()) {
                     SignupController.instance.login(
                         controller.email.text.trim(), controller.senha.text);
                   }
-                } ,
+                },
                 child: const Text("Login"),
               ),
             )

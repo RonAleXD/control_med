@@ -8,6 +8,7 @@ class SignupController extends GetxController{
   final nome = TextEditingController() ;
   final email = TextEditingController() ;
   final senha = TextEditingController() ;
+  final confirmsenha = TextEditingController() ;
 
   void login(String email, String password){
     AuthenticationRepository.instance.loginUserWithEmailAndPassword(email, password);
