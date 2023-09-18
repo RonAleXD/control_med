@@ -16,6 +16,7 @@ class LoginForm extends StatefulWidget {
 
 class _LoginFormState extends State<LoginForm> {
   bool _continueConnected = false;
+  bool _mostrarSenha = false;
 
   @override
   Widget build(BuildContext context) {
@@ -41,15 +42,23 @@ class _LoginFormState extends State<LoginForm> {
             ),
             TextFormField(
               controller: controller.senha,
-              decoration: const InputDecoration(
-                  prefix: Icon(Icons.fingerprint),
-                  labelText: "Senha",
-                  hintText: "Senha",
-                  border: OutlineInputBorder(),
-                  suffixIcon: IconButton(
-                    onPressed: null,
-                    icon: Icon(Icons.remove_red_eye_sharp),
-                  )),
+              obscureText: _mostrarSenha == false ? true : false,
+              decoration: InputDecoration(
+                prefix: const Icon(Icons.fingerprint),
+                labelText: "Senha",
+                hintText: "Senha",
+                border: const OutlineInputBorder(),
+                suffixIcon: GestureDetector(
+                  child: Icon(_mostrarSenha == false
+                      ? Icons.visibility_off
+                      : Icons.visibility),
+                  onTap: () {
+                    setState(() {
+                      _mostrarSenha = !_mostrarSenha;
+                    });
+                  },
+                ),
+              ),
             ),
             const SizedBox(
               height: 20,
