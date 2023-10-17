@@ -63,7 +63,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '771661705131',
     projectId: 'controlmed-88626',
     storageBucket: 'controlmed-88626.appspot.com',
-    iosClientId: '771661705131-do6lac23nem0g9uihpah23us4djm23b0.apps.googleusercontent.com',
+    iosClientId:
+        '771661705131-do6lac23nem0g9uihpah23us4djm23b0.apps.googleusercontent.com',
     iosBundleId: 'com.example.controlMed',
   );
 }

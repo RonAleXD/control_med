@@ -1,25 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Bibliotecas\\Desktop\\Projetos\\TC\\control_med\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "com.example.teste.app-mergeDebugResources-13:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\Bibliotecas\\Desktop\\Projetos\\TC\\control_med\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\Bibliotecas\\Desktop\\Projetos\\TCC\\control_med\\control_med\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
-                        "startOffsets": "175,820",
+                        "startOffsets": "175,831",
                         "endLines": "7,16",
                         "endColumns": "12,12",
-                        "endOffsets": "471,986"
+                        "endOffsets": "482,997"
                     },
                     "to": {
-                        "startLines": "2,7",
+                        "startLines": "2,6",
                         "startColumns": "4,4",
-                        "startOffsets": "55,352",
-                        "endLines": "6,9",
+                        "startOffsets": "55,236",
+                        "endLines": "5,8",
                         "endColumns": "12,12",
-                        "endOffsets": "347,516"
+                        "endOffsets": "231,400"
                     }
                 }
             ]

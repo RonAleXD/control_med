@@ -1,2 +1,2 @@
 /* Tamanho padrão*/
-const  dDefaultSize = 30.0;
+const dDefaultSize = 30.0;

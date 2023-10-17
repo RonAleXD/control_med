@@ -1,15 +1,14 @@
 class Usuario {
-   String? nome;
-   String? email;
-   String? password;
-   bool? keepOn;
+  String? nome;
+  String? email;
+  String? password;
+  bool? keepOn;
 
   Usuario({
     required this.password,
     required this.nome,
     required this.keepOn,
   });
-
 
   Usuario.fromJson(Map<String, dynamic> json) {
     nome = json['name'];
@@ -27,8 +26,3 @@ class Usuario {
     return data;
   }
 }
-
-
-
-
-

@@ -34,7 +34,7 @@ class BemVindoScreen extends StatelessWidget {
               children: [
                 Expanded(
                   child: OutlinedButton(
-                    onPressed: () => Get .to(() => const LoginScreenDart()),
+                    onPressed: () => Get.to(() => const LoginScreenDart()),
                     child: const Text('Login'),
                   ),
                 ),
@@ -44,7 +44,7 @@ class BemVindoScreen extends StatelessWidget {
                 Expanded(
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(elevation: 1),
-                    onPressed: () =>Get .to(() => const CadastroScreenDart()),
+                    onPressed: () => Get.to(() => const CadastroScreenDart()),
                     child: const Text('Cadastrar'),
                   ),
                 )

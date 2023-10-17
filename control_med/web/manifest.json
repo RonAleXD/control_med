@@ -1,6 +1,6 @@
 {
-    "name": "control_med",
-    "short_name": "control_med",
+    "name": "teste",
+    "short_name": "teste",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

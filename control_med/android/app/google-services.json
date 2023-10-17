@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "771661705131",
+    "firebase_url": "https://controlmed-88626-default-rtdb.firebaseio.com",
     "project_id": "controlmed-88626",
     "storage_bucket": "controlmed-88626.appspot.com"
   },
@@ -29,6 +30,13 @@
             {
               "client_id": "771661705131-0nui3ae9rm0k9qfp6l07ue2ohbrn5nkg.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "771661705131-do6lac23nem0g9uihpah23us4djm23b0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.controlMed"
+              }
             }
           ]
         }

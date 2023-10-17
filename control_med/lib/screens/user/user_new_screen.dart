@@ -11,19 +11,19 @@ class UserNewScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Cadastro de Usuário'),
       ),
-      body:  Padding(
+      body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-          TextField(
-            decoration: const InputDecoration(labelText:'Nome do Usuário' ),
-            controller: _controladorNomeUsuario,
-          ),
-          // TextField(
-          //   decoration: const InputDecoration(labelText:'Nome do ' ),
-          //   controller: _controladorMedicacoes,
-          // ),
+            TextField(
+              decoration: const InputDecoration(labelText: 'Nome do Usuário'),
+              controller: _controladorNomeUsuario,
+            ),
+            // TextField(
+            //   decoration: const InputDecoration(labelText:'Nome do ' ),
+            //   controller: _controladorMedicacoes,
+            // ),
           ],
         ),
       ),

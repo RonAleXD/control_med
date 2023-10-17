@@ -18,9 +18,9 @@ class MedNew extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
       ),
-      body: 
-      //const Text('teste'),
-      SingleChildScrollView(
+      body:
+          //const Text('teste'),
+          SingleChildScrollView(
         child: Stack(
           children: [
             // Container(
@@ -32,66 +32,67 @@ class MedNew extends StatelessWidget {
             //   ),
             // ),
             Container(
-            color: lightColorScheme.secondaryContainer.withOpacity(0.5),
-            //
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                TextField(
-                  decoration: InputDecoration(
-                    labelText: 'Nome do medicamento',
-                    labelStyle:
-                        TextStyle(color: lightColorScheme.surfaceTint),
-                  ),
-                  controller: _controladorNome,
-                ),
-                TextField(
-                  decoration: InputDecoration(
-                    labelText: 'Dosagem do medicamento',
-                    labelStyle:
-                        TextStyle(color: lightColorScheme.surfaceTint),
-                  ),
-                  controller: _controladorDosagem,
-                ),
-                TextField(
-                  decoration: InputDecoration(
-                    labelText: 'Quantidade restante em estoque',
-                    labelStyle:
-                        TextStyle(color: lightColorScheme.surfaceTint),
-                  ),
-                  keyboardType: TextInputType.number,
-                  controller: _controladorQtd,
-                ),
-                const SizedBox(height: 50),
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    ElevatedButton(
-                      child: const Text('Salvar'),
-                      onPressed: () {
-                        final String nome = _controladorNome.text;
-                        final String dosagem = _controladorDosagem.text;
-                        final double? qtdRestante =
-                            double.tryParse(_controladorQtd.text);
-                        // ignore: unused_local_variable
-                        final Medicamentos medicamentoNovo = Medicamentos(
-                            //id: ,
-                            nome: nome,
-                            dosagem: dosagem,
-                            qtdRestante: qtdRestante!);
-                      },
+              color: lightColorScheme.secondaryContainer.withOpacity(0.5),
+              //
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  TextField(
+                    decoration: InputDecoration(
+                      labelText: 'Nome do medicamento',
+                      labelStyle:
+                          TextStyle(color: lightColorScheme.surfaceTint),
                     ),
-                    ElevatedButton(
-                      child: const Text('Limpar'),
-                      onPressed: () {},
-                    )
-                  ],
-                ),
-              ],
+                    controller: _controladorNome,
+                  ),
+                  TextField(
+                    decoration: InputDecoration(
+                      labelText: 'Dosagem do medicamento',
+                      labelStyle:
+                          TextStyle(color: lightColorScheme.surfaceTint),
+                    ),
+                    controller: _controladorDosagem,
+                  ),
+                  TextField(
+                    decoration: InputDecoration(
+                      labelText: 'Quantidade restante em estoque',
+                      labelStyle:
+                          TextStyle(color: lightColorScheme.surfaceTint),
+                    ),
+                    keyboardType: TextInputType.number,
+                    controller: _controladorQtd,
+                  ),
+                  const SizedBox(height: 50),
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      ElevatedButton(
+                        child: const Text('Salvar'),
+                        onPressed: () {
+                          final String nome = _controladorNome.text;
+                          final String dosagem = _controladorDosagem.text;
+                          final double? qtdRestante =
+                              double.tryParse(_controladorQtd.text);
+                          // ignore: unused_local_variable
+                          final Medicamentos medicamentoNovo = Medicamentos(
+                              //id: ,
+                              nome: nome,
+                              dosagem: dosagem,
+                              qtdRestante: qtdRestante!);
+                        },
+                      ),
+                      ElevatedButton(
+                        child: const Text('Limpar'),
+                        onPressed: () {},
+                      )
+                    ],
+                  ),
+                ],
+              ),
             ),
-            ),],
+          ],
         ),
       ),
     );

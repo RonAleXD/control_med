@@ -32,7 +32,7 @@ class OtpScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             Text(
-              "Insira o código de verificação eviado para " + aux,
+              "Insira o código de verificação eviado para $aux",
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 20),

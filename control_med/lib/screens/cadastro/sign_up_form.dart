@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import 'package:control_med/controllers/signup_controller.dart';
 
 class CadastroForm extends StatefulWidget {
@@ -18,9 +17,9 @@ class _CadastroFormState extends State<CadastroForm> {
   @override
   Widget build(BuildContext context) {
     final controller = Get.put(SignupController());
-    final _formKey = GlobalKey<FormState>();
+    final formKey = GlobalKey<FormState>();
     return Form(
-      key: _formKey,
+      key: formKey,
       child: Container(
         padding: const EdgeInsets.symmetric(vertical: 20),
         child: Column(
@@ -93,7 +92,7 @@ class _CadastroFormState extends State<CadastroForm> {
               width: double.infinity,
               child: ElevatedButton(
                 onPressed: () {
-                  if (_formKey.currentState!.validate()) {
+                  if (formKey.currentState!.validate()) {
                     SignupController.instance.cadastrarUsuario(
                         controller.email.text.trim(), controller.senha.text);
                   }
@@ -112,7 +111,7 @@ class _CadastroFormState extends State<CadastroForm> {
               width: double.infinity,
               child: TextButton(
                 onPressed: () {
-                  if (_formKey.currentState!.validate()) {
+                  if (formKey.currentState!.validate()) {
                     SignupController.instance.cadastrarUsuario(
                       controller.email.text.trim(),
                       controller.senha.text.trim(),

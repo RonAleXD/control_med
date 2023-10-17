@@ -1,4 +1,4 @@
-#Mon Sep 18 12:41:41 BRT 2023
-base.0=D\:\\Bibliotecas\\Desktop\\Projetos\\TC\\control_med\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-renamed.0=classes.dex
+#Tue Oct 17 12:37:22 BRT 2023
+base.0=D\:\\Bibliotecas\\Desktop\\Projetos\\TCC\\control_med\\control_med\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
+renamed.0=classes.dex

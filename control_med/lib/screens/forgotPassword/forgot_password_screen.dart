@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'package:control_med/screens/forgotPassword/otpScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
@@ -52,7 +54,7 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                         width: double.infinity,
                         child: ElevatedButton(
                           onPressed: () {
-                            Get.to(()=>const OtpScreen());
+                            Get.to(() => const OtpScreen());
                           },
                           child: const Text('Próximo'),
                         ),

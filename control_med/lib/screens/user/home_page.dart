@@ -1,4 +1,4 @@
-// ignore_for_file: unused_local_variable
+// ignore_for_file: unused_local_variable, library_private_types_in_public_api
 
 import 'package:control_med/consts/images_strings.dart';
 import 'package:control_med/controllers/signup_controller.dart';
@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
             margin: const EdgeInsets.only(right: 20, top: 7),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
-              color:const  Color.fromARGB(255, 199, 225, 243),
+              color: const Color.fromARGB(255, 199, 225, 243),
             ),
             child: IconButton(
               onPressed: () {

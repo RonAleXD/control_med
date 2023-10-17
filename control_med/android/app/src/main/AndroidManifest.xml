@@ -1,7 +1,6 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.control_med">
-   <application
-        android:label="control_med"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:label="teste"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

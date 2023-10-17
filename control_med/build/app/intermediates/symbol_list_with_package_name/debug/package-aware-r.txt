@@ -1,4 +1,4 @@
-com.example.control_med
+com.example.teste
 attr activityAction
 attr activityName
 attr alpha
